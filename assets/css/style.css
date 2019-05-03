@@ -3,3 +3,38 @@ main,
 footer {
   max-width: 80rem;
 }
+
+main {
+}
+
+.story-main .title {
+  color: rgba(100, 100, 100, 0.5);
+  border: none;
+}
+
+.text-red {
+  color: #f72210;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.story-main .overlay {
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.border-none {
+  border: none;
+}
+
+article {
+}
+
+.bg-pink {
+  background-color: #f50;
+}

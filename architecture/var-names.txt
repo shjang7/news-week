@@ -1,7 +1,9 @@
 font : Tajawal Sarala helvetica?
       -> bootstrap native font stack
+      +-> 'Roboto', sans-serif;
 
-header 
+
+header
 
   nav-bar : fixed, top 0,
 
@@ -49,7 +51,7 @@ top-story border-bottom : 750px(col-right),
 
                      sticky2, position-static, left0 top0 w:auto
 
-  block-title : h4, mute
+  block-title : h6, mute
 
   card (1) : static: ** + unique
 
