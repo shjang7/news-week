@@ -24,6 +24,11 @@ img {
   height: 100%;
 }
 
+.mid-story {
+  margin-bottom: 0;
+  /*height: 1858px;*/
+}
+
 .w-40 {
   width: 40%;
 }
@@ -41,5 +46,13 @@ img {
 }
 
 .bg-pink {
+  background-color: #fcd;
+}
+
+.bg-viola {
+  background-color: #c9a;
+}
+
+.bg-orange {
   background-color: #f50;
 }
