@@ -29,6 +29,9 @@ img {
   /*height: 1858px;*/
 }
 
+.top-0 {
+  top : 0;
+}
 .w-40 {
   width: 40%;
 }
