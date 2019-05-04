@@ -4,7 +4,9 @@ footer {
   max-width: 80rem;
 }
 
-main {
+
+.bg-gray-50 {
+  background-color: rgba(100, 100, 100, 1);
 }
 
 .text-gray-50 {
@@ -19,6 +21,10 @@ main {
   background-color: #f72210;
 }
 
+.font-weight-max {
+  font-weight: 900;
+}
+
 
 .w-40 {
   width: 40%;
@@ -30,6 +36,11 @@ main {
 
 .fit-contain {
   object-fit: contain;
+}
+
+.logo-n {
+  width: 2rem;
+  height: 2rem;
 }
 
 .my-h-100 {
