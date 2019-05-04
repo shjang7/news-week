@@ -14,7 +14,7 @@
       navbar position
     </header>
     <main class="mx-auto container-fluid d-lg-flex flex-row flex-wrap">
-      <div class="row-lg col-lg-9 d-md-flex flex-row-reverse bg-primary ">
+      <div class="row-lg col-lg-9 d-md-flex flex-row-reverse ">
         <section class="mid-story row-md col-md-7">
           <section class="list-group list-group-flush my-3 mw-100">
             <h6 class="list-group-item p-0 text-black-50 text-uppercase">top story</h6>
@@ -121,7 +121,7 @@ Audire recusabo at duo. Eam ad etiam melius reformidans. Dicam graecis ut usu, g
           </section>
         </section>
       </div>
-      <div class="col-lg-3 pl-0 mt-3 d-flex flex-column bg-pink">
+      <div class="col-lg-3 pl-0 mt-3 d-flex flex-column">
         <div class="aside-top">
           <section class="opinion bg-light">
             <h6 class="text-black-50 text-uppercase">opinion</h6>
@@ -145,13 +145,13 @@ Audire recusabo at duo. Eam ad etiam melius reformidans. Dicam graecis ut usu, g
           <section class="latest-news list-group list-group-flush bg-light">
             <h6 class="text-black-50 text-uppercase">latest news</h6>
             <article class="list-group-item px-0 border-0 d-flex flex-row align-items-start">
-              <img class="col-6 pl-0 fit-contain" src="./assets/images/latest-news-1.jpg" />
+              <img class="col-6 pl-0" src="./assets/images/latest-news-1.jpg" />
               <div class="col-6 px-0 font-weight-bold">
                 Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim, id illud deseruisse sit. Ut oblique percipitur.
               </div>
             </article>
             <article class="list-group-item px-0 d-flex flex-row align-items-start">
-              <img class="col-6 pl-0 fit-contain" src="./assets/images/latest-news-1.jpg" />
+              <img class="col-6 pl-0" src="./assets/images/latest-news-1.jpg" />
               <div class="col-6 px-0 font-weight-bold">
                 Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim, id illud deseruisse sit. Ut oblique percipitur.
               </div>
@@ -215,7 +215,8 @@ Audire recusabo at duo. Eam ad etiam melius reformidans. Dicam graecis ut usu, g
       </div>
 
       <div class="bottom col-12">
-          <div class="cover col-md-3 float-md-left p-0">
+        <div class="row clearfix">
+          <article class="cover col-md-3 p-0">
             <div class="card border-0">
               <img class="card-img-top" src="./assets/images/cover.jpg" />
               <div class="card-img-overlay p-0 d-flex">
@@ -227,26 +228,116 @@ Audire recusabo at duo. Eam ad etiam melius reformidans. Dicam graecis ut usu, g
             <button class="btn btn-light btn-block rounded-0 text-uppercase font-weight-bold">
               See all features >
             </button>
-          </div>
-        <section class="in-the-magazine float-none">
-          <div class="d-flex">
-            <img class="float-left m-1 mr-2 logo-n" src="./assets/images/logo-n.svg" />
-            <h6 class="float-left text-uppercase text-black my-auto font-weight-max">in the magazine</h6>
-          </div>
-          <article class="d-block">
-            Lorem ipsum dolor sit amet, et dolorum fastidii philosophia est. Te feugait aliquando nec, his te hinc fabulas ponderum, ex fugit erant quaeque per. Eu vel invidunt constituto. Ne qui dolorem delicata corrumpit, eum in sint labitur, electram intellegebat per ut.
-
-            Ne melius scaevola vim. Ex mel habeo dicant saperet, et detraxit conceptam usu. Ne ius tantas graece convenire. Nominavi evertitur no est, quo forensibus efficiendi eu.
-
-            Mel detracto voluptaria ne, sea labore definiebas ei. Vis legere recteque hendrerit ne, vero atqui officiis at quo. Pro facilisi partiendo no. Mentitum deseruisse mea id.
-
-            Et aperiri mandamus inimicus quo, dolorum suscipiantur nec ut. Assum detraxit definitiones vim et, ut vitae definitiones sed. Tantas equidem sententiae ei qui. Ex has ludus tollit scribentur. Mea ut dicam antiopam contentiones, ad oblique gubergren complectitur qui.
-
-            An scripta principes pri, simul graeco consequat sed no. Nec ad animal discere adipisci. Ad brute erant elitr has. Eligendi iudicabit elaboraret at sit, vero graeco vis id, justo appetere accommodare has ut. Est eu veniam option.
-
-            Platonem ocurreret euripidis mel ut. Cum ex eruditi fierent eleifend. Prompta euismod ornatus eos ad, duo vitae nonumes conclusionemque ex. Eu has aeque vocent, apeirian aliquando duo ex, in graece nusquam omittantur.
           </article>
-        </section>
+          <div class="col-md-9">
+            <div class="h-10 clearfix border-bottom">
+              <img class=" m-1 d-inline-block ml-auto logo-n" src="./assets/images/logo-n.svg" />
+              <h6 class=" mx-1 mt-2 d-inline-block text-uppercase text-black font-weight-max">in the magazine</h6>
+            </div>
+            <section class="magazine row d-flex flex-row flex-wrap">
+              <article class="col-md">
+                <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+                <div class="clearfix my-2 ">
+                  <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                    features
+                  </div>
+                  <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                    U.S.
+                  </div>
+                </div>
+                <h5 class="font-weight-max">
+                  first<br />
+                  Lorem ipsum dolor sit amet.
+                </h5>
+              </article>
+              <article class="col-md">
+                <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+                <div class="clearfix my-2 ">
+                  <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                    features
+                  </div>
+                  <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                    U.S.
+                  </div>
+                </div>
+                <h5 class="font-weight-max">
+                  Lorem ipsum dolor sit amet.
+                </h5>
+              </article>
+              <article class="col-md">
+                <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+                <div class="clearfix my-2 ">
+                  <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                    features
+                  </div>
+                  <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                    U.S.
+                  </div>
+                </div>
+                <h5 class="font-weight-max">
+                  Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+                </h5>
+              </article>
+            </section>
+          </div>
+        </div>
+        <div class="row d-flex flex-row">
+          <article class="col-md">
+            <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+            <div class="clearfix my-2 ">
+              <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                features
+              </div>
+              <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                U.S.
+              </div>
+            </div>
+            <h5 class="font-weight-max">
+              Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+            </h5>
+          </article>
+          <article class="col-md">
+            <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+            <div class="clearfix my-2 ">
+              <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                features
+              </div>
+              <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                U.S.
+              </div>
+            </div>
+            <h5 class="font-weight-max">
+              Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+            </h5>
+          </article>
+          <article class="col-md">
+            <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+            <div class="clearfix my-2 ">
+              <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                features
+              </div>
+              <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                U.S.
+              </div>
+            </div>
+            <h5 class="font-weight-max">
+              Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+            </h5>
+          </article>
+          <article class="col-md">
+            <img class="h-md-vw-20 w-100 fit-cover" src="./assets/images/magazine-1.jpg"/>
+            <div class="clearfix my-2 ">
+              <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                features
+              </div>
+              <div class="float-left mt-1 ml-2 text-red text-uppercase font-weight-bold">
+                U.S.
+              </div>
+            </div>
+            <h5 class="font-weight-max">
+              Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+            </h5>
+          </article>
         <div>
           <div class="my-h-100">
             editors pick<br/>
