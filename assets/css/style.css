@@ -33,6 +33,19 @@ footer {
   height: 2.5rem;
 }
 
+.slide-show-icon {
+  width: 6rem;
+  height: 3rem;
+}
+
+.z-index-f2 {
+  z-index: 2;
+}
+
+.z-index-f1 {
+  z-index: 1;
+}
+
 .w-40 {
   width: 40%;
 }
@@ -40,8 +53,6 @@ footer {
 .w-80 {
   width: 80%;
 }
-
-
 
 .fit-cover {
   object-fit: cover;
