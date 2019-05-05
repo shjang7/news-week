@@ -59,6 +59,10 @@ footer {
   height: 2rem;
 }
 
+.us-news .aside-md img {
+  min-width: 6rem;
+}
+
 /* temporiry start */
 
 .w-80 {
@@ -107,13 +111,14 @@ footer {
 .bg-yellow {
   background-color: #ff3;
 }
+
+#fluids {
+  height : 20vw;
+  max-height: 18rem;
+}
 /* temporiry end */
 
 @media (min-width: 768px) {
-  .h-md-fluid {
-    height: 20vw;
-  }
-
   .fit-md-cover {
     object-fit: cover;
   }
@@ -126,7 +131,4 @@ footer {
 }
 
 @media (min-width: 1200px) {
-  .h-xl-fix {
-    height: 18rem;
-  }
 }
