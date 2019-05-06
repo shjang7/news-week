@@ -47,6 +47,11 @@ footer {
   height: 4rem;
 }
 
+#subscribe img {
+  width: 16rem;
+  min-width: 80px;
+}
+
 .logo-n {
   width: 2rem;
   height: 2rem;
