@@ -8,8 +8,8 @@ footer {
   background-color: rgba(100, 100, 100, 1);
 }
 
-.text-gray-50 {
-  color: rgba(100, 100, 100, 0.5);
+.text-black-60 {
+  color: rgba(0, 0, 0, .60);
 }
 
 .line-height-1 {
@@ -37,10 +37,21 @@ footer {
   height: 3rem;
 }
 
+
+.us-news .aside-md img {
+  min-width: 6rem;
+}
+
 .most-read img {
   width: 6rem;
   height: 4rem;
 }
+
+.logo-n {
+  width: 2rem;
+  height: 2rem;
+}
+
 
 .z-index-2 {
   z-index: 2;
@@ -54,14 +65,6 @@ footer {
   width: 40%;
 }
 
-.logo-n {
-  width: 2rem;
-  height: 2rem;
-}
-
-.us-news .aside-md img {
-  min-width: 6rem;
-}
 
 /* temporiry start */
 
@@ -112,13 +115,14 @@ footer {
   background-color: #ff3;
 }
 
-#fluids {
-  height : 20vw;
-  max-height: 18rem;
-}
 /* temporiry end */
 
 @media (min-width: 768px) {
+  .intro-img {
+    height : 20vw;
+    max-height: 18rem;
+  }
+
   .fit-md-cover {
     object-fit: cover;
   }

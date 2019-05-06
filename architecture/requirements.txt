@@ -12,4 +12,6 @@
 7. screen size changing using inspect screen, is that good look
   - mobile, tap, laptop, 42 inchi monitor
 8. css code included any temporiry background / color or temp comment?
-9. html code included unusing code? 
+9. html code included unusing code?
+10. has it any empty class name?
+11. is there less column numbers(4column, 3column..) comparing with original?
