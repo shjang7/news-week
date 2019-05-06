@@ -98,6 +98,11 @@ header {
 .h-10 {
   height: 2.5rem;
 }
+
+.right-0 {
+  right: 0;
+}
+
 .top-0 {
   top: 0;
 }
@@ -143,6 +148,9 @@ header {
     object-fit: cover;
   }
 }
+#navbar-list {
+  position: absolute;
+}
 
 @media (min-width: 768px) and (max-width:992px) {
   .border-md-0 {
@@ -153,5 +161,9 @@ header {
 @media (min-width: 992px) { /* large */
   #main-name {
     font-size: 4.5rem;
+  }
+
+  #navbar-list {
+    position: static;
   }
 }

@@ -10,36 +10,56 @@
     <title>Clone News week</title>
   </head>
   <body>
-    <header class="bg-red d-lg-flex navbar navbar-expand-lg flex-row align-items-baseline">
-      <div class="nav-item col-lg-4 d-none d-lg-flex text-light mr-auto text-capitalize">
-        Fri, May 03, 2019
-      </div>
-      <div class="col-lg-8 d-flex flex-row justify-content-between align-items-lg-baseline">
-        <div id="main-name" class="col-lg-4 nav-item text-light font-weight-max text-capitalize">
-          newsweek
+    <header>
+      <div class="bg-red d-lg-flex flex-row align-items-baseline">
+        <div class="col-lg-4 d-none d-lg-flex text-light mr-auto text-capitalize">
+          Fri, May 03, 2019
         </div>
-        <div class="nav-item d-flex flex-row align-items-center">
-          <div class="font-weight-bold text-light text-uppercase text-nowrap">
-            sign in
+        <div class="col-lg-8 d-flex flex-row justify-content-between align-items-lg-baseline">
+          <div id="main-name" class="col-lg-4 text-light font-weight-max text-capitalize">
+            newsweek
           </div>
-          <div class="font-weight-bold text-red bg-light text-uppercase mx-2 text-nowrap">
-            subscribe
+          <div class="d-flex flex-row align-items-center">
+            <div class="font-weight-bold text-light text-uppercase text-nowrap">
+              sign in
+            </div>
+            <div class="font-weight-bold text-red bg-light text-uppercase mx-2 text-nowrap">
+              subscribe
+            </div>
+            <nav class="navbar navbar-expand-lg d-flex flex-column">
+              <div class="dropdown">
+              <button class="navbar-toggler align-items-center py-0 p-0" type="button" data-toggle="collapse"
+                  data-target="#navbar-list" aria-controls="navbar-list" aria-expanded="false" area-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light">&#9776;</span>
+                  <!-- click : &#10060; -->
+              </button>
+            </nav>
           </div>
-          <button class="navbar-toggler align-items-center py-0 p-0" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarText" aria-expanded="false" area-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-light">&#9776;</span>
-          </button>
         </div>
-        <ul class="list-group list-group-horizontal d-none">
-          <li class="list-group-item border-top-0 border-bottom-0 rounded-0">
-            u.s.
-          </li>
-          <li class="list-group-item border-top-0 border-bottom-0 rounded-0">
-            business
-          </li>
-        </ul>
       </div>
     </header>
     <main class="mx-auto container-fluid">
+      <nav class="navbar navbar-expand-lg p-0 ">
+        <div class="collapse navbar-collapse h-100 d-lg-block right-0  z-index-1" id="navbar-list">
+          <ul class="list-group list-group-lg-horizontal navbar-nav">
+            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
+              u.s.
+            </li>
+            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
+              business
+            </li>
+            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
+              business
+            </li>
+            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
+              business
+            </li>
+            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
+              business
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="d-lg-flex flex-row flex-wrap">
         <div class="col-lg-9 d-md-flex flex-row-reverse p-0 px-lg-3">
           <div class="mid-story col-md-7 p-0 pl-md-3 pl-lg-4">
