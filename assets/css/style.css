@@ -37,6 +37,9 @@ footer {
   height: 3rem;
 }
 
+#main-name {
+  font-size: 1.75rem;
+}
 
 .us-news .aside-md img {
   min-width: 6rem;
@@ -57,7 +60,6 @@ footer {
   height: 2rem;
 }
 
-
 .z-index-2 {
   z-index: 2;
 }
@@ -69,7 +71,6 @@ footer {
 .w-40 {
   width: 40%;
 }
-
 
 /* temporiry start */
 
@@ -122,7 +123,8 @@ footer {
 
 /* temporiry end */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* midium */
+
   .intro-img {
     height : 20vw;
     max-height: 18rem;
@@ -139,5 +141,8 @@ footer {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) { /* large */
+  #main-name {
+    font-size: 4.5rem;
+  }
 }
