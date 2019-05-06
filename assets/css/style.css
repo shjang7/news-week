@@ -72,6 +72,15 @@ footer {
   width: 40%;
 }
 
+header {
+  line-height: 1;
+}
+
+.navbar-toggler-icon {
+  width: inherit;
+  height: inherit;
+}
+
 /* temporiry start */
 
 .w-80 {
