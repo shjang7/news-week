@@ -4,7 +4,7 @@
 
 - [Original WebSite](https://www.newsweek.com/)
 
-- [Project requirements description](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+- [Project description](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 ## Demo version
 
