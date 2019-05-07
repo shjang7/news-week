@@ -36,6 +36,30 @@ footer {
   color: #f72210;
 }
 
+.text-gray-black {
+  color: #555;
+}
+
+.edition-title {
+  width: 5rem;
+}
+
+.text-gray-black:hover {
+  color: #000;
+}
+
+[class*='fa-'] {
+  font-size: 2rem;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover {
+  color: #2020a1;
+}
+
+.fa-twitter-square:hover {
+  color: #0090b9;
+}
 
 .text-black-60 {
   color: rgba(0, 0, 0, .60);
@@ -119,6 +143,10 @@ header {
 .text-main-name {
   font-size: 1.75rem;
   line-height: 1;
+}
+
+footer .text-main-name {
+  font-size: 4.5rem;
 }
 
 /* temporiry start */
@@ -221,7 +249,7 @@ header {
   .w-lg-50 {
     width: 50%;
   }
-  
+
   .navbar-position  {
     position: static;
   }
