@@ -145,33 +145,12 @@ header {
   line-height: 1;
 }
 
-footer .text-main-name {
-  font-size: 4.5rem;
-}
-
-/* temporiry start */
-/*
-
-.tapbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-*/
 .text-light:hover {
   color: #fff;
 }
 
-.font-condense {
-  font-stretch: 50%;
-}
-
-.overflow-visible {
-  overflow: visible;
-}
-
-.w-80 {
-  width: 80%;
+footer .text-main-name {
+  font-size: 3.5rem;
 }
 
 .fit-contain {
@@ -182,9 +161,8 @@ footer .text-main-name {
   height: inherit;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
+/* temporiry start */
+
 
 .right-0 {
   right: 0;
