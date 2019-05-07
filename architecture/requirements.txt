@@ -13,7 +13,7 @@
 10. has it any empty class name? 0
 11. is there less column numbers(4column, 3column..) comparing with original? 0
 12. Clicking navbar, it connects with some link? or showing the place? 0
-13. svg img shows at title?
-9. html code included unusing code?
-7. screen size changing using inspect screen, is that good look
+13. svg img shows at title? 0
+9. html code included unusing code? 0
+7. screen size changing using inspect screen, is that good look 0
   - mobile, tap, laptop, 42 inchi monitor
