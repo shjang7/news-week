@@ -11,51 +11,61 @@
   </head>
   <body>
     <header>
-      <div class="bg-red d-lg-flex flex-row align-items-baseline">
-        <div class="col-lg-4 d-none d-lg-flex text-light mr-auto text-capitalize">
-          Fri, May 03, 2019
+      <div class="bg-red d-lg-flex flex-row align-items-baseline mb-lg-2">
+        <div class="col-lg-4 d-none d-lg-flex mr-auto">
+          <a href="#" class="text-light text-decoration-none text-capitalize">
+            Fri, May 03, 2019
+          </a>
         </div>
-        <div class="col-lg-8 d-flex flex-row justify-content-between align-items-lg-baseline">
-          <div id="main-name" class="col-lg-4 text-light font-weight-max text-capitalize">
-            newsweek
+        <div class=" bg-red py-2 col-lg-8 d-flex flex-row justify-content-between align-items-lg-baseline">
+          <div id="main-name" class="col-lg-4">
+            <a href="#" class="text-light text-decoration-none font-weight-max text-capitalize">
+              newsweek
+            </a>
           </div>
           <div class="d-flex flex-row align-items-center">
-            <div class="font-weight-bold text-light text-uppercase text-nowrap">
+            <a href="#" class="font-weight-bold text-light text-decoration-none text-uppercase text-nowrap">
               sign in
-            </div>
-            <div class="font-weight-bold text-red bg-light text-uppercase mx-2 text-nowrap">
+            </a>
+            <a href="#" class="font-weight-bold text-red text-decoration-none bg-light text-uppercase mx-2 text-nowrap">
               subscribe
-            </div>
-            <nav class="navbar navbar-expand-lg d-flex flex-column">
-              <div class="dropdown">
-              <button class="navbar-toggler align-items-center py-0 p-0" type="button" data-toggle="collapse"
-                  data-target="#navbar-list" aria-controls="navbar-list" aria-expanded="false" area-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-light">&#9776;</span>
-                  <!-- click : &#10060; -->
+            </a>
+            <div class="d-flex flex-column">
+              <button id="navbar-call" class="navbar-toggler align-items-center p-0 d-lg-none" data-toggle="collapse"
+                  data-target="#navbar-list" aria-controls="navbar-list">
+                <a href="#" class="w-inherit h-inherit text-light text-decoration-none menu-icon">&#9776;</a>
+                  <!-- click : &#10060;
+                 aria-expanded="false" area-label="Toggle navigation" type="button" -->
               </button>
-            </nav>
+            </div>
           </div>
         </div>
       </div>
     </header>
     <main class="mx-auto container-fluid">
-      <nav class="navbar navbar-expand-lg p-0 ">
-        <div class="collapse navbar-collapse h-100 d-lg-block right-0  z-index-1" id="navbar-list">
-          <ul class="list-group list-group-lg-horizontal navbar-nav">
-            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
-              u.s.
+      <nav class="navbar navbar-expand-lg d-lg-block p-0 right-0 bg-orange">
+        <div class="navbar-position top-0 mx-n2 collapse navbar-collapse right-0 z-index-1 bg-pink d-lg-block" id="navbar-list">
+          <ul class="list-group flex-lg-row navbar-nav bg-white text-uppercase"> <!--list-group-lg-horizontal -->
+            <li class="list-group-item nav-item rounded-0 p-0">
+              <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
+                <h4 class="font-weight-bold">
+                  u.s.
+                </h4>
+              </a>
             </li>
-            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
-              business
+            <li class="list-group-item nav-item rounded-0 p-0">
+              <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
+                <h4 class="font-weight-bold">
+                  u.s.
+                </h4>
+              </a>
             </li>
-            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
-              business
-            </li>
-            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
-              business
-            </li>
-            <li class="list-group-item nav-item border-top-0 border-bottom-0 rounded-0">
-              business
+            <li class="list-group-item nav-item rounded-0 p-0">
+              <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
+                <h4 class="font-weight-bold">
+                  u.s.
+                </h4>
+              </a>
             </li>
           </ul>
         </div>
@@ -69,16 +79,19 @@
               </h6>
               <article class="list-group-item p-0 ">
                 <div class="card border-0">
-                  <img class="card-img-top" src="./assets/images/top-story-0.jpg" alt="sorry" />
+                  <img class="card-img-top rounded-0" src="./assets/images/top-story-0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
-                    <div class="mt-auto p-2 font-weight-bold text-uppercase text-red bg-light">
+                    <a href="#" class="mt-auto p-2 stretched-link text-decoration-none
+                        font-weight-bold text-uppercase text-red bg-lpurple">
                       overlay
-                    </div>
+                    </a>
                   </div>
                 </div>
-                <h4 class="my-2 font-weight-bold text-black">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                <h4 class="my-2">
+                  <a href="#" class="text-body font-weight-bold text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
                 </h4>
                 <div class="my-2">
                   Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
@@ -86,18 +99,25 @@
                 </div>
               </article>
               <h5 class="list-group-item p-0 font-weight-bold">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
+                <a href="#" class="text-black-red text-decoration-none">
+                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                  id illud deseruisse sit. Ut oblique percipitur.
+                </a>
               </h5>
             </section>
-            <section class="more position-sticky sticky-top my-3 p-0 bg-white">
+            <section id="more-stories" class="position-sticky sticky-top my-3 p-0 bg-white">
               <h6 class="text-black-50 text-uppercase">
                 more stories
               </h6>
               <article class="clearfix">
-                <img class="w-40 float-left d-inline-block mr-2 mb-1" src="./assets/images/more-stories-0.jpg" alt="sorry" />
+                <a href="#">
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1" src="./assets/images/more-stories-0.jpg"
+                    alt="sorry" />
+                </a>
                 <h6 class="float-none my-2 font-weight-bold">
-                  Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  </a>
                 </h6>
                 <div>
                     Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
@@ -131,16 +151,20 @@
               </h6>
               <article class="list-group-item p-0 ">
                 <div class="card border-0">
-                  <img class="card-img-top" src="./assets/images/featured-stories-0.jpg" alt="sorry" />
+                  <img class="card-img-top rounded-0" src="./assets/images/featured-stories-0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
-                    <div class="mt-auto p-2 font-weight-bold text-uppercase text-red bg-light">
-                      overlay
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase bg-lpurple">
+                      <a href="#" class="text-red stretched-link text-decoration-none">
+                        overlay
+                      </a>
                     </div>
                   </div>
                 </div>
                 <h4 class="my-2 font-weight-bold">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  <a href="#" class="text-black-red text-decoration-none">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
                 </h4>
                 <div class="my-2">
                   Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
@@ -148,26 +172,32 @@
                 </div>
               </article>
               <div class="list-group-item p-0 font-weight-bold">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                  id illud deseruisse sit. Ut oblique percipitur.
+                </a>
               </div>
             </section>
             <section class="sponsored list-group list-group-flush my-3">
-              <h6 class="list-group-item border-0 p-0 text-black-50 text-uppercase">
+              <h6 class="d-none list-group-item border-0 p-0 text-black-50 text-uppercase">
                 sponsored insight
               </h6>
-              <article class="list-group-item p-0 ">
+              <article class="list-group-item p-0 border rounded-0">
                 <div class="card border-0">
-                  <img class="card-img-top" src="./assets/images/sponsor-left0.jpg" alt="sorry" />
+                  <img class="card-img-top rounded-0" src="./assets/images/sponsor-left0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
-                    <div class="mt-auto p-2 font-weight-bold text-uppercase text-red bg-light">
-                      overlay
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase bg-lpurple">
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
                     </div>
                   </div>
                 </div>
                 <h4 class="my-2 font-weight-bold">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
                 </h4>
                 <div class="my-2">
                   Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
@@ -186,10 +216,6 @@
                   ei est quidam platonem. Dicta nemore ad vim, dicam saperet est ei.
                 </div>
               </article>
-              <div class="list-group-item p-0 font-weight-bold">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
-              </div>
             </section>
           </div>
         </div>
@@ -201,11 +227,15 @@
               </h6>
               <div class="list-group list-group-flush">
                 <article class="list-group-item border-0 px-0">
-                  <img class="w-25 mr-2 mb-2 float-left" src="./assets/images/opinion-0.png" alt="sorry" />
+                  <a href="#">
+                    <img class="w-25 mr-2 mb-2 float-left" src="./assets/images/opinion-0.png" alt="sorry" />
+                  </a>
                   <div class="summary float-none ">
                     <h6 class="font-weight-bold">
-                      Lorem ipsum dolor sit amet, cu epicurei insolens sea,
-                      qui at nisl numquam accusamus. Fabellas quaestio theophrastus eum ea id.
+                      <a href="#" class="text-black-red text-decoration-none">
+                        Lorem ipsum dolor sit amet, cu epicurei insolens sea,
+                        qui at nisl numquam accusamus. Fabellas quaestio theophrastus eum ea id.
+                      </a>
                     </h6>
                     <h6 class="text-black-60 font-weight-bold">Lorem ipsum dolor sit amet,
                       sea debet evertitur abhorreant cu.
@@ -213,11 +243,15 @@
                   </div>
                 </article>
                 <article class="list-group-item px-0">
-                  <img class="w-25 mr-2 mb-2 float-left" src="./assets/images/opinion-1.png" alt="sorry" />
-                  <div class="summary float-none ">
+                  <a href="#">
+                    <img class="w-25 mr-2 mb-2 float-left" src="./assets/images/opinion-1.png" alt="sorry" />
+                  </a>
+                  <div class="summary float-none">
                     <h6 class="font-weight-bold">
-                      Lorem ipsum dolor sit amet, cu epicurei insolens sea, qui at nisl numquam accusamus.
-                      Fabellas quaestio theophrastus eum ea id.
+                      <a href="#" class="text-black-red text-decoration-none">
+                        Lorem ipsum dolor sit amet, cu epicurei insolens sea, qui at nisl numquam accusamus.
+                        Fabellas quaestio theophrastus eum ea id.
+                      </a>
                     </h6>
                     <h6 class="text-black-60 font-weight-bold">Lorem ipsum dolor sit amet,
                       sea debet evertitur abhorreant cu.
@@ -231,17 +265,23 @@
                 latest news
               </h6>
               <article class="list-group-item px-0 border-0 d-flex flex-row align-items-start">
-                <img class="col-6 pl-0" src="./assets/images/latest-news-0.jpg" alt="sorry" />
+                <a href="#" class="col-6 pl-0">
+                  <img class="h-100 w-100" src="./assets/images/latest-news-0.jpg" alt="sorry" />
+                </a>
                 <h6 class="col-6 px-0 font-weight-bold">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  <a href="#" class="text-black-red text-decoration-none">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
+                  </a>
                 </h6>
               </article>
               <article class="list-group-item px-0 d-flex flex-row align-items-start">
-                <img class="col-6 pl-0" src="./assets/images/latest-news-1.jpg" alt="sorry" />
+                <a href="#" class="col-6 pl-0">
+                  <img class="h-100 w-100" src="./assets/images/latest-news-1.jpg" alt="sorry" />
+                </a>
                 <h6 class="col-6 px-0 font-weight-bold">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  <a href="#" class="text-black-red text-decoration-none">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
+                  </a>
                 </h6>
               </article>
             </section>
@@ -256,14 +296,18 @@
                   <img class="card-img-top" src="./assets/images/special-edition-0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
                     <div class="mt-auto p-2 font-weight-bold text-uppercase text-primary bg-light">
-                      special edition
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        special edition
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="card-body border-top">
                   <h5 class="card-title font-weight-bold">
-                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                    id illud deseruisse sit. Ut oblique percipitur.
+                    <a href="#" class="text-body text-decoration-none underline-red">
+                      Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                      id illud deseruisse sit. Ut oblique percipitur.
+                    </a>
                   </h5>
                   <div class="card-text">
                     Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
@@ -277,11 +321,16 @@
                 <div class="card-body">
                   <div class="clearfix h-10">
                     <img class="float-left mr-2 logo-n" src="./assets/images/logo-n.svg" alt="sorry" />
-                    <h6 class="float-none pt-2 text-uppercase text-dark font-weight-max">Lorem ipsum
+                    <h6 class="float-none pt-2 text-uppercase text-dark font-weight-max">
+                      Lorem ipsum
                     </h6>
                   </div>
-                  <button class="btn my-2 text-light bg-secondary rounded-0 text-uppercase font-weight-bold">Sign up > </button>
-                  <a class="d-block text-dark font-weight-bold">Lorem ipsum dolor sit amet</a>
+                  <button class="d-block btn my-2 text-light bg-secondary rounded-0 text-uppercase font-weight-bold">
+                    Sign up >
+                  </button>
+                  <a href="#" class="text-dark text-decoration-none font-weight-bold">
+                    Lorem ipsum dolor sit amet
+                  </a>
                 </div>
               </div>
             </div>
@@ -294,14 +343,18 @@
                   <img class="card-img-top" src="./assets/images/sponsor-right0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
                     <div class="mt-auto p-2 font-weight-bold text-uppercase text-primary bg-light">
-                      sponsored insight
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="card-body border-top">
                   <h5 class="card-title font-weight-bold">
-                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                    id illud deseruisse sit. Ut oblique percipitur.
+                    <a href="#" class="text-body text-decoration-none underline-red">
+                      Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                      id illud deseruisse sit. Ut oblique percipitur.
+                    </a>
                   </h5>
                   <div class="card-text">
                     Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
@@ -576,7 +629,7 @@
               <div class="list-group-item card d-flex flex-row border-0 order-0 bg-lpurple">
                 <img class="card-top-image mw-50 fit-contain" src="./assets/images/package-0.png" alt="sorry" />
                 <article class="card-body">
-                  <h4 class="card-title font-weight-bold text-black">
+                  <h4 class="card-title font-weight-bold text-body">
                     digital only
                   </h4>
                   <div class="card-text">
@@ -587,7 +640,7 @@
               <div class="list-group-item card d-flex flex-row border-md-0 border-lg border-bottom-0 order-1 bg-lpurple">
                 <img class="card-top-image mw-50 fit-contain" src="./assets/images/package-1.png" alt="sorry" />
                 <article class="card-body">
-                  <h4 class="card-title font-weight-bold text-black">
+                  <h4 class="card-title font-weight-bold text-body">
                     print & digital
                   </h4>
                   <div class="card-text">

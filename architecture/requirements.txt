@@ -15,3 +15,5 @@
 9. html code included unusing code?
 10. has it any empty class name?
 11. is there less column numbers(4column, 3column..) comparing with original?
+12. Clicking navbar, it connects with some link? or showing the place?
+13. svg img shows at title?

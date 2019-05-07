@@ -4,9 +4,31 @@ footer {
   max-width: 90rem;
 }
 
-.bg-gray-50 {
-  background-color: rgba(100, 100, 100, 1);
+
+.underline-red:hover {
+  border-bottom: 1px #f72210 solid;
 }
+
+.text-red {
+  color: #f72210;
+}
+
+.text-red:hover {
+  color: #f01e0d;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.text-black-red {
+  color: #000;
+}
+
+.text-black-red:hover {
+  color: #f72210;
+}
+
 
 .text-black-60 {
   color: rgba(0, 0, 0, .60);
@@ -16,16 +38,12 @@ footer {
   line-height: 1;
 }
 
-.text-red {
-  color: #f72210;
-}
-
-.bg-red {
-  background-color: #f72210;
-}
-
 .bg-lpurple {
   background-color: #e9e1ff;
+}
+
+.bg-gray-50 {
+  background-color: rgba(100, 100, 100, 1);
 }
 
 .font-weight-max {
@@ -76,9 +94,16 @@ header {
   line-height: 1;
 }
 
-.navbar-toggler-icon {
+.w-inherit {
   width: inherit;
+}
+
+.h-inherit {
   height: inherit;
+}
+
+.navbar-position  {
+  position: absolute;
 }
 
 /* temporiry start */
@@ -138,7 +163,6 @@ header {
 /* temporiry end */
 
 @media (min-width: 768px) { /* midium */
-
   .intro-img {
     height : 20vw;
     max-height: 18rem;
@@ -147,9 +171,6 @@ header {
   .fit-md-cover {
     object-fit: cover;
   }
-}
-#navbar-list {
-  position: absolute;
 }
 
 @media (min-width: 768px) and (max-width:992px) {
@@ -163,7 +184,7 @@ header {
     font-size: 4.5rem;
   }
 
-  #navbar-list {
+  .navbar-position  {
     position: static;
   }
 }
