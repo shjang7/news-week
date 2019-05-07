@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <!--link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"-->
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <title>Clone News week</title>
   </head>
   <body>
-    <header>
-      <div class="bg-red d-lg-flex flex-row align-items-baseline mb-lg-2">
-        <div class="col-lg-4 d-none d-lg-flex mr-auto">
-          <a href="#" class="text-light text-decoration-none text-capitalize">
+    <header id="header">
+      <div class="bg-red d-lg-flex flex-row align-items-baseline mb-lg-2 clearfix">
+        <div class="col-lg-4 d-none d-lg-flex float-left mr-auto">
+          <a href="#" class="text-white text-decoration-none text-capitalize">
             Fri, May 03, 2019
           </a>
         </div>
-        <div class=" bg-red py-2 col-lg-8 d-flex flex-row justify-content-between align-items-lg-baseline">
-          <div id="main-name" class="col-lg-4">
-            <a href="#" class="text-light text-decoration-none font-weight-max text-capitalize">
+        <div id="topbar" class="float-none w-100 z-index-2 bg-red py-2 d-flex flex-row justify-content-between align-items-lg-baseline">
+          <div id="main-name" class="text-main-name text-main-name-lg col-lg-4">
+            <a href="#" class="text-white text-decoration-none font-weight-max text-capitalize">
               newsweek
             </a>
           </div>
           <div class="d-flex flex-row align-items-center">
-            <a href="#" class="font-weight-bold text-light text-decoration-none text-uppercase text-nowrap">
+            <a href="#" class="font-weight-bold text-white text-decoration-none text-uppercase text-nowrap">
               sign in
             </a>
-            <a href="#" class="font-weight-bold text-red text-decoration-none bg-light text-uppercase mx-2 text-nowrap">
+            <a href="#" class="font-weight-bold text-red text-decoration-none bg-white text-uppercase mx-2 text-nowrap">
               subscribe
             </a>
             <div class="d-flex flex-column">
               <button id="navbar-call" class="navbar-toggler align-items-center p-0 d-lg-none" data-toggle="collapse"
                   data-target="#navbar-list" aria-controls="navbar-list">
-                <a href="#" class="w-inherit h-inherit text-light text-decoration-none menu-icon">&#9776;</a>
+                <span class="w-inherit h-inherit text-white text-decoration-none menu-icon">&#9776;</span>
                   <!-- click : &#10060;
                  aria-expanded="false" area-label="Toggle navigation" type="button" -->
               </button>
@@ -43,28 +44,70 @@
       </div>
     </header>
     <main class="mx-auto container-fluid">
-      <nav class="navbar navbar-expand-lg d-lg-block p-0 right-0 bg-orange">
-        <div class="navbar-position top-0 mx-n2 collapse navbar-collapse right-0 z-index-1 bg-pink d-lg-block" id="navbar-list">
-          <ul class="list-group flex-lg-row navbar-nav bg-white text-uppercase"> <!--list-group-lg-horizontal -->
-            <li class="list-group-item nav-item rounded-0 p-0">
+      <nav class="navbar navbar-expand-lg d-lg-block p-0 right-0 text-capitalize">
+        <div class="navbar-position top-0 mx-n2 collapse navbar-collapse right-0 z-index-1 bg-white" id="navbar-list">
+          <ul class="list-group flex-lg-row nav navbar-nav bg-white"> <!--list-group-lg-horizontal -->
+            <li class="list-group-item nav-item rounded-0 border-0 p-0 text-uppercase">
               <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
-                <h4 class="font-weight-bold">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
                   u.s.
-                </h4>
+                </h5>
               </a>
             </li>
-            <li class="list-group-item nav-item rounded-0 p-0">
-              <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
-                <h4 class="font-weight-bold">
-                  u.s.
-                </h4>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/world" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  world
+                </h5>
               </a>
             </li>
-            <li class="list-group-item nav-item rounded-0 p-0">
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/business" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  business
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/tech-science" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  tech & science
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/culture" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  culture
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/sports" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  sports
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/health" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  health
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
+              <a href="https://www.newsweek.com/opinion" class="text-black-red text-decoration-none">
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  opinion
+                </h5>
+              </a>
+            </li>
+            <li class="list-group-item nav-item border-0 p-0">
               <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
-                <h4 class="font-weight-bold">
-                  u.s.
-                </h4>
+                <h5 class="font-weight-bolder py-2 px-3 border-right">
+                  search
+                </h5>
               </a>
             </li>
           </ul>
@@ -111,8 +154,8 @@
               </h6>
               <article class="clearfix">
                 <a href="#">
-                  <img class="w-40 float-left d-inline-block mr-2 mb-1" src="./assets/images/more-stories-0.jpg"
-                    alt="sorry" />
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1"
+                      src="./assets/images/more-stories-0.jpg" alt="sorry" />
                 </a>
                 <h6 class="float-none my-2 font-weight-bold">
                   <a href="#" class="text-body text-decoration-none underline-red">
@@ -122,25 +165,67 @@
                 <div>
                     Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
                     Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
-                    Dicta utamur inciderint ut nam, epicuri menandri consetetur pri ex.
-                    Per aeterno tritani petentium te.
-                    Nec vero perfecto conclusionemque eu, cu ferri solum nam. Vix minim latine id.
-                    Id pro hinc eruditi, omnesque erroribus eu pro. Sumo errem interesset at nec,
-                    ad vel summo ceteros, eu vis dicta dolores. Cum vocibus invidunt sadipscing ne.
-                    Cu vis meis vocent ponderum, ut audire gubergren mei. Ei quo praesent philosophia.
-                    Quo ad tollit sadipscing. An sit putent mnesarchum liberavisse, ridens graecis
-                    efficiendi nec ex. At vis zril munere everti, qui in solum minim legere. Elitr
-                    convenire eos no, paulo nostrud repudiandae ad vis, ei est quidam platonem. Dicta
-                    nemore ad vim, dicam saperet est ei.
-                    Mutat salutandi id mea, ea est quis modus, in omnis eripuit referrentur eam.
-                    An vim vidisse dolorum antiopam, at etiam movet impedit sit. Quo ad odio ubique docendi,
-                    minim novum sententiae sed ei, cu commune scaevola sea. Quo ad erant sensibus,
-                    at nec congue albucius, amet voluptua ius at. Duo in omnis ancillae platonem,
-                    his blandit incorrupte at. Sanctus scripserit per ad, te putant audire aliquip mel,
-                    et usu eligendi verterem reprehendunt.
-                    Audire recusabo at duo. Eam ad etiam melius reformidans. Dicam graecis ut usu,
-                    graecis corpora mel ut. Te per quas tantas euismod, an nam detraxit inciderint.
+                </div>
+              </article>
+              <article class="clearfix">
+                <a href="#">
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1"
+                      src="./assets/images/more-stories-1.jpg" alt="sorry" />
+                </a>
+                <h6 class="float-none my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  </a>
                 </h6>
+                <div>
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                    Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
+              </article>
+              <article class="clearfix">
+                <a href="#">
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1"
+                      src="./assets/images/more-stories-2.jpg" alt="sorry" />
+                </a>
+                <h6 class="float-none my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  </a>
+                </h6>
+                <div>
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                    Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
+              </article>
+              <article class="clearfix">
+                <a href="#">
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1"
+                      src="./assets/images/more-stories-3.jpg" alt="sorry" />
+                </a>
+                <h6 class="float-none my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  </a>
+                </h6>
+                <div>
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                    Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
+              </article>
+              <article class="clearfix">
+                <a href="#">
+                  <img class="w-40 float-left d-inline-block mr-2 mb-1"
+                      src="./assets/images/more-stories-4.jpg" alt="sorry" />
+                </a>
+                <h6 class="float-none my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  </a>
+                </h6>
+                <div>
+                    Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                    Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
               </article>
             </section>
           </div>
@@ -202,18 +287,72 @@
                 <div class="my-2">
                   Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
                   Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
-                  Dicta utamur inciderint ut nam, epicuri menandri consetetur pri ex.
-                  Per aeterno tritani petentium te.
-
-                  Nec vero perfecto conclusionemque eu, cu ferri solum nam. Vix minim latine id.
-                  Id pro hinc eruditi, omnesque erroribus eu pro. Sumo errem interesset at nec,
-                  ad vel summo ceteros, eu vis dicta dolores. Cum vocibus invidunt sadipscing ne.
-                  Cu vis meis vocent ponderum, ut audire gubergren mei. Ei quo praesent philosophia.
-
-                  Quo ad tollit sadipscing. An sit putent mnesarchum liberavisse,
-                  ridens graecis efficiendi nec ex. At vis zril munere everti,
-                  qui in solum minim legere. Elitr convenire eos no, paulo nostrud repudiandae ad vis,
-                  ei est quidam platonem. Dicta nemore ad vim, dicam saperet est ei.
+                </div>
+              </article>
+              <article class="list-group-item p-0 border rounded-0">
+                <div class="card border-0">
+                  <img class="card-img-top rounded-0" src="./assets/images/sponsor-left1.jpg" alt="sorry" />
+                  <div class="card-img-overlay p-0 d-flex">
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase bg-lpurple">
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
+                </h4>
+                <div class="my-2">
+                  Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
+              </article>
+              <article class="list-group-item p-0 border rounded-0">
+                <div class="card border-0">
+                  <img class="card-img-top rounded-0" src="./assets/images/sponsor-left2.jpg" alt="sorry" />
+                  <div class="card-img-overlay p-0 d-flex">
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase bg-lpurple">
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
+                </h4>
+                <div class="my-2">
+                  Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
+                </div>
+              </article>
+              <article class="list-group-item p-0 border rounded-0">
+                <div class="card border-0">
+                  <img class="card-img-top rounded-0" src="./assets/images/sponsor-left3.jpg" alt="sorry" />
+                  <div class="card-img-overlay p-0 d-flex">
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase bg-lpurple">
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="my-2 font-weight-bold">
+                  <a href="#" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </a>
+                </h4>
+                <div class="my-2">
+                  Lorem ipsum dolor sit amet, ut salutatus imperdiet torquatos quo.
+                  Noluisse sensibus rationibus mei no, ad cibo civibus mandamus mei.
                 </div>
               </article>
             </section>
@@ -269,7 +408,7 @@
                   <img class="h-100 w-100" src="./assets/images/latest-news-0.jpg" alt="sorry" />
                 </a>
                 <h6 class="col-6 px-0 font-weight-bold">
-                  <a href="#" class="text-black-red text-decoration-none">
+                  <a href="#" class="text-black-red text-decoration-none d-inline-block mw-100 text-truncate">
                     Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
                   </a>
                 </h6>
@@ -279,7 +418,7 @@
                   <img class="h-100 w-100" src="./assets/images/latest-news-1.jpg" alt="sorry" />
                 </a>
                 <h6 class="col-6 px-0 font-weight-bold">
-                  <a href="#" class="text-black-red text-decoration-none">
+                  <a href="#" class="text-black-red text-decoration-none d-inline-block mw-100 text-truncate">
                     Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
                   </a>
                 </h6>
@@ -338,9 +477,33 @@
               <h6 class="d-none">
                 sponsored insight
               </h6>
-              <article class=" ">
+              <article>
                 <div class="card border-0 rounded-0">
                   <img class="card-img-top" src="./assets/images/sponsor-right0.jpg" alt="sorry" />
+                  <div class="card-img-overlay p-0 d-flex">
+                    <div class="mt-auto p-2 font-weight-bold text-uppercase text-primary bg-light">
+                      <a href="#" class="text-primary text-decoration-none stretched-link">
+                        sponsored insight
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body border-top">
+                  <h5 class="card-title font-weight-bold">
+                    <a href="#" class="text-body text-decoration-none underline-red">
+                      Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                      id illud deseruisse sit. Ut oblique percipitur.
+                    </a>
+                  </h5>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
+                    id illud deseruisse sit. Ut oblique percipitur.
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="card border-0 rounded-0">
+                  <img class="card-img-top" src="./assets/images/sponsor-right1.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
                     <div class="mt-auto p-2 font-weight-bold text-uppercase text-primary bg-light">
                       <a href="#" class="text-primary text-decoration-none stretched-link">
@@ -405,16 +568,48 @@
                   </div>
                   <h5 class="font-weight-bold">
                     <a href="#" class="text-body text-decoration-none underline-red">
-                      Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+                      Lorem ipsum dolor sit amet.
                     </a>
                   </h5>
                 </article>
-                <div class="temp col-md-4">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
-                </div>
-                <div class="temp col-md-4">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
-                </div>
+                <article class="col-md-4">
+                  <a href="#">
+                    <img class="intro-img img-fluid w-100 fit-md-cover rounded-0" src="./assets/images/in-magazine-1.jpg" alt="sorry" />
+                  </a>
+                  <div class="clearfix my-2 ">
+                    <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                      features
+                    </div>
+                    <a href="#" class="float-left mt-1 ml-2 text-uppercase font-weight-bold
+                        text-red text-decoration-none">
+                      U.S.
+                    </a>
+                  </div>
+                  <h5 class="font-weight-bold">
+                    <a href="#" class="text-body text-decoration-none underline-red">
+                      Lorem ipsum dolor sit amet.
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-4">
+                  <a href="#">
+                    <img class="intro-img img-fluid w-100 fit-md-cover rounded-0" src="./assets/images/in-magazine-2.jpg" alt="sorry" />
+                  </a>
+                  <div class="clearfix my-2 ">
+                    <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                      features
+                    </div>
+                    <a href="#" class="float-left mt-1 ml-2 text-uppercase font-weight-bold
+                        text-red text-decoration-none">
+                      U.S.
+                    </a>
+                  </div>
+                  <h5 class="font-weight-bold">
+                    <a href="#" class="text-body text-decoration-none underline-red">
+                      Lorem ipsum dolor sit amet.
+                    </a>
+                  </h5>
+                </article>
               </div>
             </div>
           </div>
@@ -434,19 +629,67 @@
               </div>
               <h5 class="font-weight-bold">
                 <a href="#" class="text-body text-decoration-none underline-red">
-                  Lorem ipsum dolor sit amet, vix te case aliquando adolescens.
+                  Lorem ipsum dolor sit amet.
                 </a>
               </h5>
             </article>
-            <div class="temp col-md-3">
-              Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
-            </div>
-            <div class="temp col-md-3">
-              Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
-            </div>
-            <div class="temp col-md-3">
-              Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
-            </div>
+            <article class="col-md-3">
+              <a href="#">
+                <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-4.jpg" alt="sorry" />
+              </a>
+              <div class="clearfix my-2 ">
+                <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                  features
+                </div>
+                <a href="#" class="float-left mt-1 ml-2 text-uppercase font-weight-bold
+                    text-red text-decoration-none">
+                  U.S.
+                </a>
+              </div>
+              <h5 class="font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h5>
+            </article>
+            <article class="col-md-3">
+              <a href="#">
+                <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-5.jpg" alt="sorry" />
+              </a>
+              <div class="clearfix my-2 ">
+                <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                  features
+                </div>
+                <a href="#" class="float-left mt-1 ml-2 text-uppercase font-weight-bold
+                    text-red text-decoration-none">
+                  U.S.
+                </a>
+              </div>
+              <h5 class="font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h5>
+            </article>
+            <article class="col-md-3">
+              <a href="#">
+                <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-6.jpg" alt="sorry" />
+              </a>
+              <div class="clearfix my-2 ">
+                <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
+                  features
+                </div>
+                <a href="#" class="float-left mt-1 ml-2 text-uppercase font-weight-bold
+                    text-red text-decoration-none">
+                  U.S.
+                </a>
+              </div>
+              <h5 class="font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h5>
+            </article>
           </div>
         </div>
         <section class="editors-pick px-lg-3">
@@ -469,13 +712,11 @@
               </div>
               <h6 class="my-2 font-weight-bold">
                 <a href="#" class="text-body text-decoration-none underline-red">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  Lorem ipsum dolor sit amet, his error oportere eu.
                 </a>
               </h6>
               <div class="my-2">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim
               </div>
             </article>
             <article class="col-md-6 col-lg-3 d-flex flex-column flex-nowrap">
@@ -490,25 +731,51 @@
               </div>
               <h6 class="my-2 font-weight-bold">
                 <a href="#" class="text-body text-decoration-none underline-red">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  Lorem ipsum dolor sit amet, his error oportere eu.
                 </a>
               </h6>
               <div class="my-2">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
               </div>
             </article>
-            <div class="temp col-md-6 col-lg-3">
-              Simul ridens prompta pro eu, per graece iriure ad.
-              Id quis purto incorrupte quo, eu sonet semper adipiscing vel,
-              eos no admodum tacimates disputando. Has posse ubique an. Has audire graecis iudicabit ex.
-            </div>
-            <div class="temp col-md-6 col-lg-3">
-              Simul ridens prompta pro eu, per graece iriure ad.
-              Id quis purto incorrupte quo, eu sonet semper adipiscing vel,
-              eos no admodum tacimates disputando. Has posse ubique an. Has audire graecis iudicabit ex.
-            </div>
+            <article class="col-md-6 col-lg-3 d-flex flex-column flex-nowrap">
+              <div class=" card border-0 p-0">
+                <img class="card-img-top rounded-0" src="./assets/images/editors-2.jpg" alt="sorry" />
+                <div class="card-img-overlay p-0 d-flex">
+                  <a href="#" class="mt-auto p-2 font-weight-bold text-uppercase bg-light
+                      text-red text-decoration-none stretched-link">
+                    overlay
+                  </a>
+                </div>
+              </div>
+              <h6 class="my-2 font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet, his error oportere eu.
+                </a>
+              </h6>
+              <div class="my-2">
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
+              </div>
+            </article>
+            <article class="col-md-6 col-lg-3 d-flex flex-column flex-nowrap">
+              <div class=" card border-0 p-0">
+                <img class="card-img-top rounded-0" src="./assets/images/editors-3.jpg" alt="sorry" />
+                <div class="card-img-overlay p-0 d-flex">
+                  <a href="#" class="mt-auto p-2 font-weight-bold text-uppercase bg-light
+                      text-red text-decoration-none stretched-link">
+                    overlay
+                  </a>
+                </div>
+              </div>
+              <h6 class="my-2 font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet, his error oportere eu.
+                </a>
+              </h6>
+              <div class="my-2">
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
+              </div>
+            </article>
           </div>
         </section>
         <div class="featured-slideshows px-lg-3">
@@ -525,27 +792,27 @@
             <article class="col-md-6 col-lg-4 d-flex flex-column flex-nowrap">
               <div class=" card border-0 p-0">
                 <img class="card-img-top rounded-0" src="./assets/images/editors-2.jpg" alt="sorry" />
-                <a href="#"  class="card-img-overlay p-0 d-flex stretched-link text-red text-decoration-none">
+                <a href="#" class="card-img-overlay p-0 d-flex stretched-link text-red text-decoration-none">
                   <div class="position-sticky overlay-bound mt-auto p-1 bg-light font-weight-bold text-uppercase">
                     <div class="overlay-inner position-absolute border-left border-top border-danger">
                     </div>
                     <div class="mt-1 ml-1 overlay-inner position-absolute border-left border-top border-danger">
                     </div>
-                    <div class="mt-2 ml-2 overlay-inner pl-2 pb-2 position-absolute border border-danger">
-                      31
+                    <div class="mt-2 ml-2 overlay-inner position-absolute border border-danger d-flex">
+                      <div class="mx-auto my-auto">
+                        31
+                      </div>
                     </div>
                   </div>
                 </a>
               </div>
               <h6 class="my-2 font-weight-bold">
                 <a href="#" class="text-body text-decoration-none underline-red">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sitext-red t. Ut oblique percipitur.
+                  Lorem ipsum dolor sit amet, his error oportere eu.
                 </a>
               </h6>
               <div class="my-2">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                id illud deseruisse sit. Ut oblique percipitur.
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
               </div>
             </article>
             <article class="col-md-6 col-lg-4 d-flex flex-column flex-nowrap">
@@ -557,30 +824,52 @@
                     </div>
                     <div class="mt-1 ml-1 overlay-inner position-absolute border-left border-top border-danger">
                     </div>
-                    <div class="mt-2 ml-2 overlay-inner pl-2 pb-2 position-absolute border border-danger">
-                      13
+                    <div class="mt-2 ml-2 overlay-inner position-absolute border border-danger d-flex">
+                      <div class="mx-auto my-auto">
+                        13
+                      </div>
                     </div>
                   </div>
                 </a>
               </div>
               <h6 class="my-2 font-weight-bold">
                 <a href="#" class="text-body text-decoration-none underline-red">
-                  Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim,
-                  id illud deseruisse sit. Ut oblique percipitur.
+                  Lorem ipsum dolor sit amet, his error oportere eu.
                 </a>
               </h6>
               <div class="my-2">
-                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim, id illud deseruisse sit. Ut oblique percipitur.
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
               </div>
             </article>
-            <div class="temp col-md-6 col-lg-3">
-              Simul ridens prompta pro eu, per graece iriure ad.
-              Id quis purto incorrupte quo, eu sonet semper adipiscing vel,
-              eos no admodum tacimates disputando. Has posse ubique an. Has audire graecis iudicabit ex.
-            </div>
+            <article class="col-md-6 col-lg-4 d-flex flex-column flex-nowrap">
+              <div class=" card border-0 p-0">
+                <img class="card-img-top rounded-0" src="./assets/images/slide-2.jpg" alt="sorry" />
+                <a href="#"  class="card-img-overlay p-0 d-flex stretched-link text-red text-decoration-none">
+                  <div class="position-sticky overlay-bound mt-auto p-1 bg-light font-weight-bold text-uppercase">
+                    <div class="overlay-inner position-absolute border-left border-top border-danger">
+                    </div>
+                    <div class="mt-1 ml-1 overlay-inner position-absolute border-left border-top border-danger">
+                    </div>
+                    <div class="mt-2 ml-2 overlay-inner position-absolute border border-danger d-flex">
+                      <div class="mx-auto my-auto">
+                        13
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <h6 class="my-2 font-weight-bold">
+                <a href="#" class="text-body text-decoration-none underline-red">
+                  Lorem ipsum dolor sit amet, his error oportere eu.
+                </a>
+              </h6>
+              <div class="my-2">
+                Lorem ipsum dolor sit amet, his error oportere eu, congue invidunt no vim.
+              </div>
+            </article>
           </div>
         </div>
-        <section class="us-news my-4">
+        <section class="us my-4">
           <h5 class="my-2 mx-lg-3 font-weight-bold text-uppercase ">
             <a href="https://www.newsweek.com/us" class="text-red text-decoration-none">
               U.S.
@@ -594,8 +883,9 @@
                 </a>
                 <h6 class="card-body px-0 font-weight-bold">
                   <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam ludus. Te nam justo veritus euripidis, nec ullum dicam latine cu. Ei pro ocurreret mnesarchum. Vel ei omnis populo, ei postea repudiare vix. Tempor option theophrastus ut eum. Cu pri postea corpora.
-                    Eros melius ei ius delenit.
+                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam ludus.
+                    Te nam justo veritus euripidis, nec ullum dicam latine cu. Ei pro ocurreret mnesarchum.
+                    Vel ei omnis populo, ei postea repudiare vix. Tempor option theophrastus ut eum.
                   </a>
                 </h6>
               </article>
@@ -605,29 +895,42 @@
                 </a>
                 <h6 class="card-body px-0 font-weight-bold">
                   <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam ludus. Te nam justo veritus euripidis, nec ullum dicam latine cu. Ei pro ocurreret mnesarchum. Vel ei omnis populo, ei postea repudiare vix. Tempor option theophrastus ut eum. Cu pri postea corpora.
-                    Eros melius ei ius delenit.
+                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam ludus.
+                    Te nam justo veritus euripidis, nec ullum dicam latine cu. Ei pro ocurreret mnesarchum.
+                    Vel ei omnis populo, ei postea repudiare vix. Tempor option theophrastus ut eum.
                   </a>
                 </h6>
               </article>
             </div>
             <div class="aside-md col-md-4 list-group list-group-flush mt-md-n2 px-md-3">
               <article class="list-group-item clearfix border-0">
-                <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-2.jpg" alt="sorry" />
+                <a href="https://www.newsweek.com/us">
+                  <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-2.jpg" alt="sorry" />
+                </a>
                 <h6 class="float-none font-weight-bold">
-                  Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  </a>
                 </h6>
               </article>
               <article class="list-group-item clearfix">
-                <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-3.jpg" alt="sorry" />
+                <a href="https://www.newsweek.com/us">
+                  <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-3.jpg" alt="sorry" />
+                </a>
                 <h6 class="float-none font-weight-bold">
-                  Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  </a>
                 </h6>
               </article>
               <article class="list-group-item clearfix">
-                <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-4.jpg" alt="sorry" />
+                <a href="https://www.newsweek.com/us">
+                  <img class="float-left col-4 col-md-6 px-0 mr-2" src="./assets/images/us-4.jpg" alt="sorry" />
+                </a>
                 <h6 class="float-none font-weight-bold">
-                  Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                    Lorem ipsum dolor sit amet, falli noster iudicabit usu et, mei ei agam.
+                  </a>
                 </h6>
               </article>
             </div>
@@ -655,30 +958,38 @@
             </h6>
             <div class="list-group list-group-flush d-flex flex-md-row flex-lg-column">
               <div class="list-group-item card d-flex flex-row border-0 order-0 bg-lpurple">
-                <img class="card-top-image mw-50 fit-contain" src="./assets/images/package-0.png" alt="sorry" />
+                <a href="https://www.newsweek.com/us" class="mw-50">
+                  <img class="card-top-image w-100 fit-contain" src="./assets/images/package-0.png" alt="sorry" />
+                </a>
                 <article class="card-body">
                   <h4 class="card-title font-weight-bold text-body">
-                    digital only
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      digital only
+                    </a>
                   </h4>
                   <div class="card-text">
-                    Lorem ipsum dolor sit amet, nisl nemore tamquam vix an, id natum facete quodsi nec.
+                    Lorem ipsum dolor sit amet, nisl nemore tamquam vix an.
                   </div>
                 </article>
               </div>
               <div class="list-group-item card d-flex flex-row border-md-0 border-lg border-bottom-0 order-1 bg-lpurple">
-                <img class="card-top-image mw-50 fit-contain" src="./assets/images/package-1.png" alt="sorry" />
+                <a href="https://www.newsweek.com/us" class="mw-50">
+                  <img class="card-top-image w-100 fit-contain" src="./assets/images/package-1.png" alt="sorry" />
+                </a>
                 <article class="card-body">
                   <h4 class="card-title font-weight-bold text-body">
-                    print & digital
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      print & digital
+                    </a>
                   </h4>
                   <div class="card-text">
-                    Lorem ipsum dolor sit amet, nisl nemore tamquam vix an, id natum facete quodsi nec.
+                    Lorem ipsum dolor sit amet, nisl nemore tamquam vix an.
                   </div>
                 </article>
               </div>
             </div>
             <div class="py-3 d-flex bg-lpurple">
-              <a href="#subscribe" class="btn btn-lg mx-auto text-light bg-red font-weight-bold rounded-0">
+              <a href="https://subscription.newsweek.com/subscribe" class="btn btn-lg mx-auto text-white bg-red font-weight-bold rounded-0">
                  subscribe >
               </a>
             </div>
@@ -689,11 +1000,59 @@
                 Most read
               </h6>
               <div class="list-group-item d-flex px-0">
-                <img class="order-0 fit-contain " src="./assets/images/most-read-0.jpg" alt="sorry" />
-                <h6 class="order-1 ml-2 font-weight-bold">
-                  Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
-                  Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
-                </h6>
+                <a href="#" class="order-0">
+                  <img class="fit-contain" src="./assets/images/most-read-0.jpg" alt="sorry" />
+                </a>
+                <a href="#" class="order-1 ml-2 text-black-red text-decoration-none">
+                  <h6 class="font-weight-bold">
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                  </h6>
+                </a>
+              </div>
+              <div class="list-group-item d-flex px-0">
+                <a href="#" class="order-0">
+                  <img class="fit-contain" src="./assets/images/most-read-1.jpg" alt="sorry" />
+                </a>
+                <a href="#" class="order-1 ml-2 text-black-red text-decoration-none">
+                  <h6 class="font-weight-bold">
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                  </h6>
+                </a>
+              </div>
+              <div class="list-group-item d-flex px-0">
+                <a href="#" class="order-0">
+                  <img class="fit-contain" src="./assets/images/most-read-2.jpg" alt="sorry" />
+                </a>
+                <a href="#" class="order-1 ml-2 text-black-red text-decoration-none">
+                  <h6 class="font-weight-bold">
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                  </h6>
+                </a>
+              </div>
+              <div class="list-group-item d-flex px-0">
+                <a href="#" class="order-0">
+                  <img class="fit-contain" src="./assets/images/most-read-3.jpg" alt="sorry" />
+                </a>
+                <a href="#" class="order-1 ml-2 text-black-red text-decoration-none">
+                  <h6 class="font-weight-bold">
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                  </h6>
+                </a>
+              </div>
+              <div class="list-group-item d-flex px-0">
+                <a href="#" class="order-0">
+                  <img class="fit-contain" src="./assets/images/most-read-4.jpg" alt="sorry" />
+                </a>
+                <a href="#" class="order-1 ml-2 text-black-red text-decoration-none">
+                  <h6 class="font-weight-bold">
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                    Lorem ipsum dolor sit amet, pri commodo legimus placerat te.
+                  </h6>
+                </a>
               </div>
             </section>
           </div>

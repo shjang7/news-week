@@ -1,4 +1,8 @@
 
+body {
+}
+
+
 main,
 footer {
   max-width: 90rem;
@@ -18,6 +22,10 @@ footer {
 
 .bg-red {
   background-color: #f72210;
+}
+
+#subscribe .btn:hover {
+  background-color: #e91d0c; /*#f01e0d;*/
 }
 
 .text-black-red {
@@ -58,10 +66,7 @@ footer {
   width: 3rem;
   height: 2rem;
   font-size: 1.5rem;
-}
-
-#main-name {
-  font-size: 1.75rem;
+  line-height: 1;
 }
 
 .us-news .aside-md img {
@@ -84,11 +89,11 @@ footer {
 }
 
 .z-index-2 {
-  z-index: 2;
+  z-index: 2050;
 }
 
 .z-index-1 {
-  z-index: 1;
+  z-index: 1050;
 }
 
 .w-40 {
@@ -111,7 +116,31 @@ header {
   position: absolute;
 }
 
+.text-main-name {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
 /* temporiry start */
+/*
+
+.tapbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+.text-light:hover {
+  color: #fff;
+}
+
+.font-condense {
+  font-stretch: 50%;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
 
 .w-80 {
   width: 80%;
@@ -185,10 +214,14 @@ header {
 }
 
 @media (min-width: 992px) { /* large */
-  #main-name {
+  .text-main-name-lg {
     font-size: 4.5rem;
   }
 
+  .w-lg-50 {
+    width: 50%;
+  }
+  
   .navbar-position  {
     position: static;
   }
