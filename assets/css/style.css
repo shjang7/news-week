@@ -61,7 +61,7 @@ footer {
   height: 4rem;
 }
 
-#subscribe img {
+.subscribe img {
   width: 16rem;
   min-width: 80px;
 }
