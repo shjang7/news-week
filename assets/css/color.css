@@ -1,0 +1,49 @@
+
+/* customized colors */
+
+.text-red {
+  color: #f72210;
+}
+
+.text-red:hover {
+  color: #f01e0d;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.text-light:hover {
+  color: #fff;
+}
+
+.text-black-red {
+  color: #000;
+}
+
+.text-black-red:hover {
+  color: #f72210;
+}
+
+.text-gray-black {
+  color: #555;
+}
+
+.text-gray-black:hover {
+  color: #000;
+}
+.text-black-60 {
+  color: rgba(0, 0, 0, .60);
+}
+
+.bg-lpurple {
+  background-color: #e9e1ff;
+}
+
+.bg-gray-50 {
+  background-color: rgba(100, 100, 100, 1);
+}
+
+#subscribe .btn:hover {
+  background-color: #e91d0c;
+}

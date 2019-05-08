@@ -1,0 +1,19 @@
+1. window resizing : objects move same with original website 0
+  column numbers
+  - small size
+  - mid size
+  - large size
+2. the sequence of the objects are same in the small screen 0
+3. Is that implemented using bootstrap when it has the way to use bootstrap? 0
+4. hover works appropriate place? 0
+  - font color, mouse form, underline
+5. tap bar has 2 types according to screen size 0
+6. some objects are overlay or hide behind with no reason? 0
+7. screen size changing using inspect screen, is that good look 0
+  - mobile, tap, laptop, 42 inchi monitor
+8. css code included any temporiry background / color or temp comment? 0
+9. html code included unusing code? 0
+10. has it any empty class name? 0
+11. is there less column numbers(4column, 3column..) comparing with original? 0
+12. Clicking navbar, it connects with some link? or showing the place? 0
+13. svg img shows at title? 0
