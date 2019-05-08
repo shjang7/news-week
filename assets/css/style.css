@@ -48,6 +48,14 @@ footer {
   border-bottom: 1px #f72210 solid;
 }
 
+.w-input {
+  max-width: 6rem;
+}
+
+.main-name-size {
+  width: 
+}
+
 .us-news .aside-md img {
   min-width: 6rem;
 }
