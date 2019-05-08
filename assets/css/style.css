@@ -48,18 +48,15 @@ footer {
   border-bottom: 1px #f72210 solid;
 }
 
+
 .w-input {
-  max-width: 6rem;
+  width: 10rem;
 }
-
-.main-name-size {
-  width: 
-}
-
-.us-news .aside-md img {
+/*temp
+.min-width-6 {
   min-width: 6rem;
 }
-
+*/
 .most-read img {
   width: 6rem;
   height: 4rem;
@@ -80,17 +77,19 @@ footer {
   height: 2rem;
 }
 
-[class*='fa-'] {
-  font-size: 2rem;
+.fa-search {
+  font-size: 1.25rem;
 }
 
 .fa-facebook:hover,
 .fa-instagram:hover {
   color: #2020a1;
+  font-size: 2rem;
 }
 
 .fa-twitter-square:hover {
   color: #0090b9;
+  font-size: 2rem;
 }
 
 .edition-title {

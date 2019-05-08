@@ -45,7 +45,7 @@
     </header>
     <main class="mx-auto container-fluid">
       <nav class="navbar navbar-expand-lg p-0 text-capitalize">
-        <div class="navbar-position top-0 right-0 mx-n2 collapse navbar-collapse z-index-1 bg-white" id="navbar-list">
+        <div class="navbar-position top-0 right-0 collapse navbar-collapse z-index-1 bg-white" id="navbar-list">
           <ul class="list-group flex-lg-row flex-nowrap nav navbar-nav bg-lpurple">
             <li class="list-group-item nav-item rounded-0 border-0 p-0 text-uppercase">
               <a href="https://www.newsweek.com/us" class="text-black-red text-decoration-none">
@@ -103,12 +103,14 @@
                 </h5>
               </a>
             </li>
-            <li class="list-group-item nav-item border-0 px-3 pt-0">
-              <div class="input-group border clearfix">
-                <input type="text" class="form-control float-left w-input" placeholder="search"
+            <li class="list-group-item nav-item border-0 py-0 px-1 w-input">
+              <div class="input-group clearfix">
+                <input type="text" class="form-control float-left" placeholder="search"
                     aria-label="searching" aria-describedby="button-search">
                 <div class="input-group-append float-left">
-                  <button class="btn btn-outline-success" id="button-search">Search</button>
+                  <button class="btn btn-outline-secondary px-2 py-1" id="button-search">
+                    <i class="fas fa-search"></i>
+                  </button>
                 </div>
               </div>
             </li>
@@ -122,7 +124,7 @@
               <h6 class="list-group-item p-0 text-black-50 text-uppercase">
                 top story
               </h6>
-              <article class="list-group-item p-0 ">
+              <article class="list-group-item p-0">
                 <div class="card border-0">
                   <img class="card-img-top rounded-0" src="./assets/images/top-story-0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
@@ -233,7 +235,7 @@
               <h6 class="list-group-item p-0 text-black-50 text-uppercase">
                 featured story
               </h6>
-              <article class="list-group-item p-0 ">
+              <article class="list-group-item p-0">
                 <div class="card border-0">
                   <img class="card-img-top rounded-0" src="./assets/images/featured-stories-0.jpg"
                       alt="sorry" />
@@ -260,7 +262,7 @@
                   What Is a Coup? In Venezuela, Guaidó and Maduro Disagree
                 </a>
               </div>
-              <article class="list-group-item p-0 ">
+              <article class="list-group-item p-0">
                 <div class="card border-0">
                   <img class="card-img-top rounded-0" src="./assets/images/featured-stories-1.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
@@ -385,7 +387,7 @@
               <div class="list-group list-group-flush">
                 <article class="list-group-item border-0 px-0 clearfix">
                   <a href="#">
-                    <img class="col-3 col-lg-5 float-left" src="./assets/images/opinion-0.png" alt="sorry" />
+                    <img class="col-3 col-lg-4 float-left" src="./assets/images/opinion-0.png" alt="sorry" />
                   </a>
                   <div class="summary ml-3 float-none">
                     <h6 class="font-weight-bold">
@@ -400,7 +402,7 @@
                 </article>
                 <article class="list-group-item border-0 px-0 clearfix">
                   <a href="#">
-                    <img class="col-3 col-lg-5 float-left"  src="./assets/images/opinion-1.png" alt="sorry" />
+                    <img class="col-3 col-lg-4 float-left"  src="./assets/images/opinion-1.png" alt="sorry" />
                   </a>
                   <div class="summary ml-3 float-none">
                     <h6 class="font-weight-bold">
@@ -415,7 +417,7 @@
                 </article>
                 <article class="list-group-item border-0 px-0 clearfix">
                   <a href="#">
-                    <img class="col-3 col-lg-5 float-left" src="./assets/images/opinion-2.png" alt="sorry" />
+                    <img class="col-3 col-lg-4 float-left" src="./assets/images/opinion-2.png" alt="sorry" />
                   </a>
                   <div class="summary ml-3 float-none">
                     <h6 class="font-weight-bold">
@@ -430,9 +432,9 @@
                 </article>
                 <article class="list-group-item border-0 px-0 clearfix">
                   <a href="#">
-                    <img class="col-3 col-lg-5 float-left" src="./assets/images/opinion-3.png" alt="sorry" />
+                    <img class="col-3 col-lg-4 float-left" src="./assets/images/opinion-3.png" alt="sorry" />
                   </a>
-                  <div class="summary ml-3 flat-none">
+                  <div class="summary ml-3 float-none">
                     <h6 class="font-weight-bold">
                       <a href="#" class="text-black-red text-decoration-none">
                         Katie Bouman Showed The World What Women In Stem Can Do. If Given A Chance
@@ -445,7 +447,7 @@
                 </article>
                 <article class="list-group-item border-0 px-0 clearfix">
                   <a href="#">
-                    <img class="col-3 col-lg-5 float-left" src="./assets/images/opinion-4.png" alt="sorry" />
+                    <img class="col-3 col-lg-4 float-left" src="./assets/images/opinion-4.png" alt="sorry" />
                   </a>
                   <div class="summary ml-3 float-none">
                     <h6 class="font-weight-bold">
@@ -511,7 +513,7 @@
               <h6 class="d-none">
                 special edition
               </h6>
-              <article class=" ">
+              <article>
                 <div class="card border-0 rounded-0">
                   <img class="card-img-top" src="./assets/images/special-edition-0.jpg" alt="sorry" />
                   <div class="card-img-overlay p-0 d-flex">
@@ -609,7 +611,7 @@
           </div>
         </div>
 
-        <div class="in-magazine col-lg-12 px-0 px-lg-3 mt-4 mt-md-0">
+        <div class="in-magazine col-lg-12 px-0 px-lg-3 my-3">
           <div class="row">
             <div class="cover col-md-3 mt-auto mb-4">
               <div class="card border-0 mt-md-5">
@@ -638,7 +640,7 @@
                     <img class="intro-img img-fluid w-100 fit-md-cover rounded-0" src="./assets/images/in-magazine-0.jpg"
                         alt="sorry" />
                   </a>
-                  <div class="clearfix my-2 ">
+                  <div class="clearfix my-2">
                     <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                       features
                     </div>
@@ -657,7 +659,7 @@
                   <a href="#">
                     <img class="intro-img img-fluid w-100 fit-md-cover rounded-0" src="./assets/images/in-magazine-1.jpg" alt="sorry" />
                   </a>
-                  <div class="clearfix my-2 ">
+                  <div class="clearfix my-2">
                     <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                       features
                     </div>
@@ -676,7 +678,7 @@
                   <a href="#">
                     <img class="intro-img img-fluid w-100 fit-md-cover rounded-0" src="./assets/images/in-magazine-2.jpg" alt="sorry" />
                   </a>
-                  <div class="clearfix my-2 ">
+                  <div class="clearfix my-2">
                     <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                       Downtime
                     </div>
@@ -699,7 +701,7 @@
               <a href="#">
                 <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-3.jpg" alt="sorry" />
               </a>
-              <div class="clearfix my-2 ">
+              <div class="clearfix my-2">
                 <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                   Downloads
                 </div>
@@ -718,7 +720,7 @@
               <a href="#">
                 <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-4.jpg" alt="sorry" />
               </a>
-              <div class="clearfix my-2 ">
+              <div class="clearfix my-2">
                 <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                   Downtime
                 </div>
@@ -737,7 +739,7 @@
               <a href="#">
                 <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-5.jpg" alt="sorry" />
               </a>
-              <div class="clearfix my-2 ">
+              <div class="clearfix my-2">
                 <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                   Downloads
                 </div>
@@ -756,7 +758,7 @@
               <a href="#">
                 <img class="intro-img img-fluid w-100 fit-md-cover" src="./assets/images/in-magazine-6.jpg" alt="sorry" />
               </a>
-              <div class="clearfix my-2 ">
+              <div class="clearfix my-2">
                 <div class="float-left text-light text-uppercase bg-red p-1 font-weight-bold">
                   big shots
                 </div>
@@ -773,7 +775,7 @@
             </article>
           </div>
         </div>
-        <section class="editors-pick px-lg-3">
+        <section class="editors-pick px-lg-3 mt-1 mb-3">
           <div class="w-100 my-3 py-1 d-flex flex-row justify-content-center border-bottom">
             <img class="logo-n" src="./assets/images/logo-n.svg" alt="sorry" />
             <h6 class="mt-2 ml-1 text-uppercase text-dark font-weight-max">
@@ -860,7 +862,7 @@
             </article>
           </div>
         </section>
-        <div class="featured-slideshows px-lg-3">
+        <div class="featured-slideshows px-lg-3 mt-1 mb-3">
           <div class="w-100 my-3 py-1 d-flex flex-row justify-content-center border-bottom">
             <div class="logo-n mr-2">
               <img class="mt-1 ml-1 logo-n position-absolute border border-light" src="./assets/images/logo-n.svg" alt="sorry" />
@@ -920,7 +922,7 @@
             <article class="col-md-6 col-lg-4 d-flex flex-column flex-nowrap">
               <div class=" card border-0 p-0">
                 <img class="card-img-top rounded-0" src="./assets/images/slide-2.jpg" alt="sorry" />
-                <a href="#"  class="card-img-overlay p-0 d-flex stretched-link text-red text-decoration-none">
+                <a href="#" class="card-img-overlay p-0 d-flex stretched-link text-red text-decoration-none">
                   <div class="position-sticky overlay-bound mt-auto p-1 bg-light font-weight-bold text-uppercase">
                     <div class="overlay-inner position-absolute border-left border-top border-danger">
                     </div>
@@ -942,85 +944,392 @@
             </article>
           </div>
         </div>
-        <section class="us-news my-4">
-          <h5 class="my-2 mx-lg-3 font-weight-bold text-uppercase ">
-            <a href="https://www.newsweek.com/us" class="text-red text-decoration-none">
-              U.S.
-            </a>
-          </h5>
-          <div class="d-md-flex flex-md-row flex-md-unwrap">
-            <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
-              <article class="col-md-6 card border-0 pr-0">
-                <a href="https://www.newsweek.com/us">
-                  <img class="card-top-img w-100" src="./assets/images/us-0.jpg" alt="sorry" />
-                </a>
-                <h5 class="card-body px-0 font-weight-bold">
-                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Plastic Surgeon Known as 'Boob God' Suing Ex-patients Over Negative Reviews
+        <!-- news list start -->
+        <section class="list-group list-group-flush my-3">
+          <h6 class="d-none">
+            news list
+          </h6>
+          <section class="list-group-item us-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-uppercase">
+              <a href="https://www.newsweek.com/us" class="text-red text-decoration-none">
+                U.S.
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/us">
+                    <img class="card-top-img w-100" src="./assets/images/us-0.jpg" alt="sorry" />
                   </a>
-                </h5>
-              </article>
-              <article class="col-md-6 card border-0 pr-0">
-                <a href="https://www.newsweek.com/us">
-                  <img class="card-top-img w-100" src="./assets/images/us-1.jpg" alt="sorry" />
-                </a>
-                <h5 class="card-body px-0 font-weight-bold">
-                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Video Shows Bonnet-Wearing Florida Man Stuff Baby Formula Under his Dress
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      Plastic Surgeon Known as 'Boob God' Suing Ex-patients Over Negative Reviews
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/us">
+                    <img class="card-top-img w-100" src="./assets/images/us-1.jpg" alt="sorry" />
                   </a>
-                </h5>
-              </article>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      Video Shows Bonnet-Wearing Florida Man Stuff Baby Formula Under his Dress
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/us">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-2.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      Hannity: Dems Would Hate Trump Even If He Cured Caner, Gave Americans $5M
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/us">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-3.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      AIDS and HIV
+                      AIDS Drugs Prevent Gay Men From Transmitting HIV Virus, Researchers Say
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/us">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
+                      Cinco de Mayo: Where to Celebrate
+                    </a>
+                  </h6>
+                </article>
+              </div>
             </div>
-            <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
-              <article class="list-group-item clearfix border-0">
-                <a href="https://www.newsweek.com/us">
-                  <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-2.jpg" alt="sorry" />
-                </a>
-                <h6 class="float-none font-weight-bold">
-                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Hannity: Dems Would Hate Trump Even If He Cured Caner, Gave Americans $5M
+          </section>
+          <section class="list-group-item world-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-capitalize">
+              <a href="https://www.newsweek.com/world" class="text-red text-decoration-none">
+                world
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/world">
+                    <img class="card-top-img w-100" src="./assets/images/world-0.jpg" alt="sorry" />
                   </a>
-                </h6>
-              </article>
-              <article class="list-group-item clearfix">
-                <a href="https://www.newsweek.com/us">
-                  <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-3.jpg" alt="sorry" />
-                </a>
-                <h6 class="float-none font-weight-bold">
-                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    AIDS and HIV
-                    AIDS Drugs Prevent Gay Men From Transmitting HIV Virus, Researchers Say
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/world" class="text-body text-decoration-none underline-red">
+                      Tropical Cyclone Fani: Dangerous, Rare Storm Scheduled to Strike India
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/world">
+                    <img class="card-top-img w-100" src="./assets/images/world-1.jpg" alt="sorry" />
                   </a>
-                </h6>
-              </article>
-              <article class="list-group-item clearfix">
-                <a href="https://www.newsweek.com/us">
-                  <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/us-4.jpg" alt="sorry" />
-                </a>
-                <h6 class="float-none font-weight-bold">
-                  <a href="https://www.newsweek.com/us" class="text-body text-decoration-none underline-red">
-                    Cinco de Mayo: Where to Celebrate
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/world" class="text-body text-decoration-none underline-red">
+                      China is America's First Competitor That 'Is Not Caucasian,' Says Official
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/world">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/world-2.jpg" alt="sorry" />
                   </a>
-                </h6>
-              </article>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/world" class="text-body text-decoration-none underline-red">
+                      Russia Says U.S. 'Wrong' on Venezuela, Will Gather Allies to Prove It
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/world">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/world-3.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/world" class="text-body text-decoration-none underline-red">
+                      Maduro Announces Plan to ‘Improve Everything’ and ‘Correct Mistakes’
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/world">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/world-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/world" class="text-body text-decoration-none underline-red">
+                      Pope Francis Is a Heretic, Conservative Catholic Group Says
+                    </a>
+                  </h6>
+                </article>
+              </div>
             </div>
-          </div>
+          </section>
+          <section class="list-group-item business-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-capitalize">
+              <a href="https://www.newsweek.com/business" class="text-red text-decoration-none">
+                business
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/business">
+                    <img class="card-top-img w-100" src="./assets/images/business-0.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/business" class="text-body text-decoration-none underline-red">
+                      George Conway Offers Rare Defense Of Trump On Emoluments Charge
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/business">
+                    <img class="card-top-img w-100" src="./assets/images/business-1.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/business" class="text-body text-decoration-none underline-red">
+                      Kellyanne Conway Broke the Law Attacking Joe Biden in White House Driveway
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/business">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/business-2.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/business" class="text-body text-decoration-none underline-red">
+                      Trump Has 2020 Trouble in Texas Against Biden, Bernie
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/business">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/business-3.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/business" class="text-body text-decoration-none underline-red">
+                      Boeing Shareholders Press CEO on Airplane Safety
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/business">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/business-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/business" class="text-body text-decoration-none underline-red">
+                      Bernie Sanders Is Most Popular Democrat on Social Media
+                    </a>
+                  </h6>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="list-group-item tech-science-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-capitalize">
+              <a href="https://www.newsweek.com/tech-science" class="text-red text-decoration-none">
+                tech & science
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/tech-science">
+                    <img class="card-top-img w-100" src="./assets/images/tech-science-0.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/tech-science" class="text-body text-decoration-none underline-red">
+                      Man-made Climate Change Linked to Droughts As Early As 1900
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/tech-science">
+                    <img class="card-top-img w-100" src="./assets/images/tech-science-1.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/tech-science" class="text-body text-decoration-none underline-red">
+                      Conservatives Hit Back After WaPo Labeled Louis Farrakhan 'Far-Right'
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/tech-science">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/tech-science-2.png" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/tech-science" class="text-body text-decoration-none underline-red">
+                      Microsoft Outage: Azure, Office 365 Sharepoint, OneDrive, and More Down
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/tech-science">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/tech-science-3.png" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/tech-science" class="text-body text-decoration-none underline-red">
+                      Twitch Streamer Kun0 Banned for 7-Days
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/tech-science">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/tech-science-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/tech-science" class="text-body text-decoration-none underline-red">
+                      'Sea of Thieves' Legendary Storyteller Guide
+                    </a>
+                  </h6>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="list-group-item culture-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-capitalize">
+              <a href="https://www.newsweek.com/culture" class="text-red text-decoration-none">
+                culture
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/culture">
+                    <img class="card-top-img w-100" src="./assets/images/culture-0.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/culture" class="text-body text-decoration-none underline-red">
+                      Original 'Star Wars' Chewbacca Peter Mayhew Dies at 74
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/culture">
+                    <img class="card-top-img w-100" src="./assets/images/culture-1.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/culture" class="text-body text-decoration-none underline-red">
+                      'Jeopardy!' Star James Holzhauer Claims New Record
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/culture">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/culture-2.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/culture" class="text-body text-decoration-none underline-red">
+                      Who Won Miss USA 2019?
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/culture">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/culture-3.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/culture" class="text-body text-decoration-none underline-red">
+                      Twitter Artists Aghast as Adobe Doubles Price of Basic Photography Plan
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/culture">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/culture-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/culture" class="text-body text-decoration-none underline-red">
+                      Who Is Hosting Miss USA 2019?
+                    </a>
+                  </h6>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="list-group-item sports-news">
+            <h5 class="my-2 mx-lg-3 font-weight-bold text-capitalize">
+              <a href="https://www.newsweek.com/sports" class="text-red text-decoration-none">
+                sports
+              </a>
+            </h5>
+            <div class="d-md-flex flex-md-row flex-md-unwrap">
+              <div class="col-12 col-md-8 row mx-lg-0 d-md-flex flex-md-row pr-0 px-md-0">
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/sports">
+                    <img class="card-top-img w-100" src="./assets/images/sports-0.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/sports" class="text-body text-decoration-none underline-red">
+                      Kentucky Derby Contenders, Best Bets For Saturday's 145th Run for the Roses
+                    </a>
+                  </h5>
+                </article>
+                <article class="col-md-6 card border-0 pr-0">
+                  <a href="https://www.newsweek.com/sports">
+                    <img class="card-top-img w-100" src="./assets/images/sports-1.jpg" alt="sorry" />
+                  </a>
+                  <h5 class="card-body px-0 font-weight-bold">
+                    <a href="https://www.newsweek.com/sports" class="text-body text-decoration-none underline-red">
+                      When is Post Time for the 2019 Kentucky Derby (Saturday May 4)?
+                    </a>
+                  </h5>
+                </article>
+              </div>
+              <div class="aside-md col-md-4 list-group list-group-flush mt-md-n3 px-md-3">
+                <article class="list-group-item clearfix border-0">
+                  <a href="https://www.newsweek.com/sports">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/sports-2.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/sports" class="text-body text-decoration-none underline-red">
+                      When Does Tiger Woods Play Next? Skipping Wells Fargo, Eyes Next Major
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/sports">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/sports-3.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/sports" class="text-body text-decoration-none underline-red">
+                      Monday Night RAW Results (5/6)
+                    </a>
+                  </h6>
+                </article>
+                <article class="list-group-item clearfix">
+                  <a href="https://www.newsweek.com/sports">
+                    <img class="float-left col-4 col-md-5 px-0 mr-2" src="./assets/images/sports-4.jpg" alt="sorry" />
+                  </a>
+                  <h6 class="float-none font-weight-bold">
+                    <a href="https://www.newsweek.com/sports" class="text-body text-decoration-none underline-red">
+                      Tiger Woods Award From Donald Trump Live Stream: Watch Golf Star Get Medal
+                    </a>
+                  </h6>
+                </article>
+              </div>
+            </div>
+          </section>
         </section>
-        <div class="world d-none">
-          world
-        </div>
-        <div class="business d-none">
-          business
-        </div>
-        <div class="tech d-none">
-          tech
-        </div>
-        <div class="culture d-none">
-          culture
-        </div>
-        <div class="sports d-none">
-          sports
-        </div>
+        <!-- news list end -->
         <div class="d-lg-flex justify-content-lg-between">
           <section id="subscribe" class="col-lg-4 px-0 p-lg-3">
             <h6 class="text-red text-uppercase font-weight-bold">
@@ -1070,7 +1379,7 @@
             </div>
           </section>
           <div class="most-read col-lg-4 p-0 px-lg-3 mt-4">
-            <section class="list-group list-group-flush ">
+            <section class="list-group list-group-flush">
               <h6 class="text-uppercase text-dark font-weight-max">
                 Most read
               </h6>
