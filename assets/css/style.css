@@ -48,15 +48,10 @@ footer {
   border-bottom: 1px #f72210 solid;
 }
 
-
 .w-input {
   width: 10rem;
 }
-/*temp
-.min-width-6 {
-  min-width: 6rem;
-}
-*/
+
 .most-read img {
   width: 6rem;
   height: 4rem;
