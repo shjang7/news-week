@@ -119,9 +119,6 @@ header {
 footer .text-main-name {
   font-size: 3.5rem;
 }
-.fit-md-cover {
-  object-fit: cover;
-}
 
 @media (min-width: 768px) { /* midium */
   .intro-img {  /* in the magazine */
