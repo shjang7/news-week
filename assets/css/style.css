@@ -4,6 +4,17 @@ body {
   font-stretch: condensed;
 }
 
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
 main,
 footer {
   max-width: 90rem;
@@ -153,5 +164,9 @@ footer .text-main-name {
 
   .navbar-position  {
     position: static;
+  }
+
+  .border-lg-right {
+    border-right: 1px #ccc solid;
   }
 }
