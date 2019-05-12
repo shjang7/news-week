@@ -20,6 +20,10 @@ footer {
   max-width: 90rem;
 }
 
+.z-index-3 {
+  z-index: 3050;
+}
+
 .z-index-2 {
   z-index: 2050;
 }
@@ -158,8 +162,9 @@ footer .text-main-name {
 }
 
 @media (min-width: 992px) { /* large */
-  .main-name-fontsize-lg {
+  .text-main-name {
     font-size: 4.5rem;
+    height: 4.5rem;
   }
 
   .navbar-position  {
